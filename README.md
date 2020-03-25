@@ -8,7 +8,7 @@
 1. Gain a practical understanding of traditional and modern natural language processing techniques.
 2. Develop an intuition for knowledge graphs and ontologies.
 3. Familiarisation with basic text handling and processing such as lemmatisation, stemming, etc.
-4. Gain intuition of word vectors and their applications in natural language processing.
+4. Gain intuition towards word vectors and their applications in natural language processing.
 5. Develop an understanding of unsupervised learning using latent topic models
 6. Develop an understanding of supervised learning using modern tools such as PyTorch for sentiment analysis.
 
