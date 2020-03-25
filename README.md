@@ -17,9 +17,9 @@
 | Start | End   | Agenda                           |
 | -----:|:----- | -------------------------------- |
 | 08:30 | 08:45 | Q&A, Issues & Announcements      |
-| 08:45 | 10:00 | **Session 1: Handling Text**        |
+| 08:45 | 10:00 | **Session 1: Handling Text and Basic Text Processing**        |
 | 10:00 | 10:30 | *Morning Tea*                    |
-| 10:30 | 12:00 | **Session 2: Basic Text Processing**            |
+| 10:30 | 12:00 | **Session 2: Word Embeddings**            |
 | 12:00 | 13:00 | *Lunch*                          |
 | 13:00 | 14:30 | **Session 3: Unsupervised Learning**           |
 | 14:30 | 15:00 | *Afternoon Tea*                  |
