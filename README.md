@@ -61,3 +61,22 @@ The following steps assume that you have access to a google account (e.g. have a
 1. In your Google Drive, go to the folder `My Drive/12-text-processing/notebooks`. Open the first notebook `12.1-An introduction to the NLTK.ipynb` by right clicking on it's name and selecting `Open With > Google Colaboratory`. This will open a new tab in your browser.
 2. With the notebook open, get familiar with 'mounting' your Google Drive to the notebook (We'll need to do this for the majority of the notebooks to ensure we can access the data). For this particular notebook, this is done in the first cell under the heading `Loading text data`. 
 3. Press `shift + enter` to execute the cell or click on the 'play' button on the upper left hand side of the cell. This will prompt you to follow a URL and get an activation code to permit mounting the drive. Once you'd done this it will not be required again, and will permit you to access files on your Google Drive.
+
+
+## Miscellaneous links
+Additional information pertaining to chat based discussions and material within the workshop:
+1. Centre for Transforming Maintenance Through Data Science (CTMTDS): https://www.maintenance.org.au/
+2. CTMTDS - Theme 1 Support the Maintainer (Wei & Tyler; NLP): https://www.maintenance.org.au/category/rt1
+3. Industrial Ontologies - Maintenance Working Group: https://www.industrialontologies.org/?page_id=92
+4. Aquila exploratory data analysis tool: http://agent.csse.uwa.edu.au/aquila
+5. Spacy - Industrial Strength Natural Language Processing: https://spacy.io/
+6. Gensim - Topic Modelling for Humans: https://radimrehurek.com/gensim/
+7. NLTK - Natural Language Tool Kit: https://www.nltk.org/
+8. Interactive word2vec (embedding) visualisation tool: https://ronxin.github.io/wevi/
+9. PyTorch - Binary Cross Entropy Loss (BCELoss): https://pytorch.org/docs/stable/nn.html#bceloss
+10. PyTorch - Recurrent Neural Network (RNN) module: https://pytorch.org/docs/stable/nn.html#rnn
+11. CUDA framework for GPU training: https://developer.nvidia.com/cudnn
+12. CUDA supported GPUs: https://developer.nvidia.com/cuda-gpus
+13. Automatic Summarization (NLP/NLG): https://en.wikipedia.org/wiki/Automatic_summarization
+14. Industrial Ontologies - Maintenance Working Group: https://www.industrialontologies.org/?page_id=92
+15. Example of embeddings drawing powerful insights into COVID19 research: https://www.kaggle.com/tarunpaparaju/covid-19-dataset-gaining-actionable-insights
