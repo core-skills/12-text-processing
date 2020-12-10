@@ -1,2 +1,2 @@
-curl -LO https://mallet.cs.umass.edu/dist/mallet-2.0.8.zip
+curl -L -O http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip
 unzip mallet-2.0.8
