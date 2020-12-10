@@ -18,5 +18,6 @@ dependencies:
   - nltk
   - pytorch
   - torchtext
+  - pip
   - pip:
     - pyldavis
