@@ -14,20 +14,23 @@
 
 ## Schedule
 
-| Start | End   | Agenda                           |
-| -----:|:----- | -------------------------------- |
-| 08:30 | 08:45 | Q&A, Issues & Announcements      |
-| 08:45 | 10:00 | **Session 1: Handling Text and Basic Text Processing**        |
-| 10:00 | 10:30 | *Morning Tea*                    |
-| 10:30 | 12:00 | **Session 2: Word Embeddings**            |
-| 12:00 | 13:00 | *Lunch*                          |
-| 13:00 | 14:30 | **Session 3: Unsupervised Learning**           |
-| 14:30 | 15:00 | *Afternoon Tea*                  |
-| 15:00 | 16:30 | **Session 4: Supervised Learning** |
-| 16:30 | 16:45 | **Closeout**                   |
+|          AWST | AEST          | Agenda                                                 |
+| -------------:|:------------- | ------------------------------------------------------ |
+| 07:30 - 07:45 | 09:30 - 09:45 | Q&A, Issues & Announcements                            |
+| 07:45 - 09:15 | 09:45 - 11:15 | **Session 1: Handling Text and Basic Text Processing** |
+| 09:15 - 09:30 | 11:15 - 11:30 | *Morning Tea*                                          |
+| 09:30 - 11:00 | 11:30 - 13:00 | **Session 2: Word Embeddings**                         |
+| 11:00 - 11:45 | 13:00 - 13:45 | *Lunch*                                                |
+| 11:45 - 13:15 | 13:45 - 15:15 | **Session 3: Unsupervised Learning**                   |
+| 13:15 - 13:30 | 15:15 - 15:30 | *Afternoon Tea*                                        |
+| 13:30 - 14:45 | 15:30 - 16:45 | **Session 4: Supervised Learning*                      |
+| 14:45 - 15:00 | 16:45 - 17:00 | [**Closeout**                                          |
+
 
 ## Instructions for setting up interactive Google Colab notebooks
+
 The following steps assume that you have access to a google account (e.g. have a gmail email).
+
 #### Copying the code repository from Github
 1. Go to https://github.com/core-skills/12-text-processing and click on the green button 'clone or download'. Download the repository .zip file and unzip.
 2. You should now have a folder with the following structure:
@@ -50,8 +53,9 @@ The following steps assume that you have access to a google account (e.g. have a
     └──  README.md
     └──  environment.yml
     ```
+
 #### Download embedding data
-1. Download the embedding data 'glove.6B.100d.txt' from the following Google Drive link https://drive.google.com/open?id=1L9bYIEd6jBTW3P4yWMnyVT178lUp5Mx9 
+1. Download the embedding data 'glove.6B.100d.txt' from the following Google Drive link https://drive.google.com/open?id=1L9bYIEd6jBTW3P4yWMnyVT178lUp5Mx9
 2. Place this file into `12-text-processing/data` folder in the structure shown above.
 
 #### Copy the `12-text-processing` folder into Google Drive
@@ -59,7 +63,7 @@ The following steps assume that you have access to a google account (e.g. have a
 
 #### Ensuring that Google Colab notebooks function correctly
 1. In your Google Drive, go to the folder `My Drive/12-text-processing/notebooks`. Open the first notebook `12.1-An introduction to the NLTK.ipynb` by right clicking on it's name and selecting `Open With > Google Colaboratory`. This will open a new tab in your browser.
-2. With the notebook open, get familiar with 'mounting' your Google Drive to the notebook (We'll need to do this for the majority of the notebooks to ensure we can access the data). For this particular notebook, this is done in the first cell under the heading `Loading text data`. 
+2. With the notebook open, get familiar with 'mounting' your Google Drive to the notebook (We'll need to do this for the majority of the notebooks to ensure we can access the data). For this particular notebook, this is done in the first cell under the heading `Loading text data`.
 3. Press `shift + enter` to execute the cell or click on the 'play' button on the upper left hand side of the cell. This will prompt you to follow a URL and get an activation code to permit mounting the drive. Once you'd done this it will not be required again, and will permit you to access files on your Google Drive.
 
 

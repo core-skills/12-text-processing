@@ -6,15 +6,15 @@ channels:
   - defaults
 
 dependencies:
-  - numpy
+  - numpy # standard imports
   - pandas
+  - scikit-learn
   - matplotlib
   - seaborn
   - bokeh
   - ipykernel
-  - gensim
+  - gensim # NLP imports
   - spacy
-  - scikit-learn
   - nltk
   - pytorch
   - torchtext
