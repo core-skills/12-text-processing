@@ -1,18 +1,24 @@
-name: week10
+name: day12
 
 channels:
-  # Conda forge - gives us lots of community-built Python packages, see https://conda-forge.org/ for details
-  - conda-forge  
-  # R packages - uncoment this one if you want to use R for your work. R packages in conda are generally called 'r-$packagename'. Note that this will massively slow down the dependency resolver so only do it if you actually need it.
-  # - r
+  - pytorch # for pytorch components
+  - conda-forge
+  - defaults
 
 dependencies:
-  - numpy
+  - numpy # standard imports
   - pandas
+  - scikit-learn
   - matplotlib
   - seaborn
+  - bokeh
   - ipykernel
-  - gensim
+  - gensim # NLP imports
   - spacy
+  - nltk
+  - pytorch
+  - torchtext
+  - tqdm
+  - pip
   - pip:
-    - pyLDAviz
+    - pyldavis

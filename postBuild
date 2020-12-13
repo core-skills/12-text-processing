@@ -1,0 +1,6 @@
+curl -L -O http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip
+unzip mallet-2.0.8 -d notebooks/mallet-2.0.8  # unzip mallet into notebooks
+rm mallet-2.0.8.zip                           # cleanup zipfile
+
+python -m spacy download en
+python ./notebooks/fetch.py
