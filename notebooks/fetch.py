@@ -48,10 +48,10 @@ def get_onedrive_directlink(onedrive_link):
     return direct_url
 
 
-def compress(file):
+def compress(filepath):
     """Compress a text file to a gzipped copy (.txt.gz) locally"""
-    with open(d, "rb") as f_in:
-        with gzip.open(d.with_suffix(".txt.gz"), "wb") as f_out:
+    with open(filepath, "rb") as f_in:
+        with gzip.open(filepath.with_suffix(".txt.gz"), "wb") as f_out:
             shutil.copyfileobj(f_in, f_out)
 
 
