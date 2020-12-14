@@ -12,10 +12,34 @@ import zlib
 
 # list of filepaths for local storage mapped to their remote equivalents, noting compression
 MANIFEST = {
-    "../data/glove.6B.100d.txt": (
-        "https://1drv.ms/u/s!As2ibEui13xml4I6hYtLUuF7PqK-gQ?e=AaLLee",
+    "../data/glove.6B.50d.txt": (
+        "https://1drv.ms/u/s!As2ibEui13xml4JKELeEITUmX0WUHQ?e=kp6Yw9",
         True,
-    )
+    ),
+    "../data/reviews_data.txt": (
+        "https://1drv.ms/u/s!As2ibEui13xml4JJ2vVIJqveOf28kQ?e=TFpGfz",
+        True
+    ),
+    "../data/wamex_xml.zip" : (
+        "https://1drv.ms/u/s!As2ibEui13xml4JEufgSyii95XLACA?e=CAp9a6", 
+        False
+    ),
+    "../data/word2vec/word2vec_gswa.bin": (
+        "https://1drv.ms/u/s!As2ibEui13xml4JIZY6jGXoSmCJgaw?e=WreJmt",
+        False
+    ),
+    "../data/word2vec/word2vec_reviews.bin": (
+        "https://1drv.ms/u/s!As2ibEui13xml4JDKG5Alk1YGqgMVg?e=6JS4iJ",
+        False
+    ),
+    "../data/word2vec/word2vec_reviews.bin.trainables.syn1neg.npy": (
+        "https://1drv.ms/u/s!As2ibEui13xml4JH8Gy7XtU_uvU3WA?e=aS2BNw",
+        False
+    ),
+    "../data/word2vec/word2vec/word2vec_reviews.bin.wv.vectors.npy": (
+        "https://1drv.ms/u/s!As2ibEui13xml4JG_eV7vHv84U_MVg?e=W5OG6H",
+        False
+    ),
 }
 
 
@@ -79,6 +103,8 @@ def fetch_file(name, chunksize=16 * 1024):
     local_target = (Path(__file__).parent / fp).resolve()
 
     if not local_target.exists():
+        if not local_target.parent.exists():
+            local_target.parent.mkdir(parents=True)
         if compressed:
             dec = zlib.decompressobj(
                 32 + zlib.MAX_WBITS
