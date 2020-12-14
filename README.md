@@ -23,8 +23,8 @@
 | 11:00 - 11:45 | 13:00 - 13:45 | *Lunch*                                                |
 | 11:45 - 13:15 | 13:45 - 15:15 | **Session 3: Unsupervised Learning**                   |
 | 13:15 - 13:30 | 15:15 - 15:30 | *Afternoon Tea*                                        |
-| 13:30 - 14:45 | 15:30 - 16:45 | **Session 4: Supervised Learning*                      |
-| 14:45 - 15:00 | 16:45 - 17:00 | [**Closeout**                                          |
+| 13:30 - 14:45 | 15:30 - 16:45 | **Session 4: Supervised Learning**                     |
+| 14:45 - 15:00 | 16:45 - 17:00 | **Closeout**                                           |
 
 <!---
 ## Instructions for setting up interactive Google Colab notebooks
