@@ -36,7 +36,7 @@ MANIFEST = {
         "https://1drv.ms/u/s!As2ibEui13xml4JH8Gy7XtU_uvU3WA?e=aS2BNw",
         False
     ),
-    "../data/word2vec/word2vec/word2vec_reviews.bin.wv.vectors.npy": (
+    "../data/word2vec/word2vec_reviews.bin.wv.vectors.npy": (
         "https://1drv.ms/u/s!As2ibEui13xml4JG_eV7vHv84U_MVg?e=W5OG6H",
         False
     ),
