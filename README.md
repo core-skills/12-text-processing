@@ -26,7 +26,7 @@
 | 13:30 - 14:45 | 15:30 - 16:45 | **Session 4: Supervised Learning*                      |
 | 14:45 - 15:00 | 16:45 - 17:00 | [**Closeout**                                          |
 
-
+<!---
 ## Instructions for setting up interactive Google Colab notebooks
 
 The following steps assume that you have access to a google account (e.g. have a gmail email).
@@ -65,7 +65,7 @@ The following steps assume that you have access to a google account (e.g. have a
 1. In your Google Drive, go to the folder `My Drive/12-text-processing/notebooks`. Open the first notebook `12.1-An introduction to the NLTK.ipynb` by right clicking on it's name and selecting `Open With > Google Colaboratory`. This will open a new tab in your browser.
 2. With the notebook open, get familiar with 'mounting' your Google Drive to the notebook (We'll need to do this for the majority of the notebooks to ensure we can access the data). For this particular notebook, this is done in the first cell under the heading `Loading text data`.
 3. Press `shift + enter` to execute the cell or click on the 'play' button on the upper left hand side of the cell. This will prompt you to follow a URL and get an activation code to permit mounting the drive. Once you'd done this it will not be required again, and will permit you to access files on your Google Drive.
-
+--->
 
 ## Miscellaneous links
 Additional information pertaining to chat based discussions and material within the workshop:
