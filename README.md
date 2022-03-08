@@ -9,22 +9,24 @@
 2. Develop an intuition for knowledge graphs and ontologies.
 3. Familiarisation with basic text handling and processing such as lemmatisation, stemming, etc.
 4. Gain intuition towards word vectors and their applications in natural language processing.
-5. Develop an understanding of unsupervised learning using latent topic models
-6. Develop an understanding of supervised learning using modern tools such as PyTorch for sentiment analysis.
+5. Develop an understanding of supervised learning using modern tools such as HuggingFace.
+6. Develop an understanding of unsupervised learning using latent topic models.
 
 ## Schedule
 
 |          AWST | AEST          | Agenda                                                 |
 | -------------:|:------------- | ------------------------------------------------------ |
-| 07:30 - 07:45 | 09:30 - 09:45 | Q&A, Issues & Announcements                            |
-| 07:45 - 09:15 | 09:45 - 11:15 | **Session 1: Handling Text and Basic Text Processing** |
+| 07:30 - 07:45 | 09:30 - 09:45 | Q&A, Issues & Announcements |
+| 07:45 - 09:15 | 09:45 - 11:15 | 12.0 Overview & 12.1 Fundamentals of NLP |
 | 09:15 - 09:30 | 11:15 - 11:30 | *Morning Tea*                                          |
-| 09:30 - 11:00 | 11:30 - 13:00 | **Session 2: Word Embeddings**                         |
+| 09:30 - 11:00 | 11:30 - 13:00 | 12.2 Fundamentals of NLP & 12.3 Supervised Learning|
 | 11:00 - 11:45 | 13:00 - 13:45 | *Lunch*                                                |
-| 11:45 - 13:15 | 13:45 - 15:15 | **Session 3: Unsupervised Learning**                   |
+| 11:45 - 13:15 | 13:45 - 15:15 | 12.3 Supervised Learning *Continued*                   |
 | 13:15 - 13:30 | 15:15 - 15:30 | *Afternoon Tea*                                        |
-| 13:30 - 14:45 | 15:30 - 16:45 | **Session 4: Supervised Learning**                     |
-| 14:45 - 15:00 | 16:45 - 17:00 | **Closeout**                                           |
+| 13:30 - 14:30 | 15:30 - 16:30 | 12.4 Unsupervised Learning                     |
+| 14:30 - 14:55 | 16:30 - 16:55 | **Closeout & Feedback** |
+| 14:55 - 15:00 | 16:55 - 17:00 | **Menti Feedback** |
+| 15:00 - 15:00 | 17:00 - 17:00 | **Closeout**|
 
 <!---
 ## Instructions for setting up interactive Google Colab notebooks
