@@ -17,11 +17,11 @@
 |          AWST | AEST          | Agenda                                                 |
 | -------------:|:------------- | ------------------------------------------------------ |
 | 07:30 - 07:45 | 09:30 - 09:45 | Q&A, Issues & Announcements |
-| 07:45 - 09:15 | 09:45 - 11:15 | 12.0 Overview & 12.1 Fundamentals of NLP |
+| 07:45 - 09:15 | 09:45 - 11:15 | 12.0 Overview of NLP  |
 | 09:15 - 09:30 | 11:15 - 11:30 | *Morning Tea*                                          |
-| 09:30 - 11:00 | 11:30 - 13:00 | 12.2 Fundamentals of NLP & 12.3 Supervised Learning|
+| 09:30 - 11:00 | 11:30 - 13:00 | 12.1/2 Fundamentals of NLP |
 | 11:00 - 11:45 | 13:00 - 13:45 | *Lunch*                                                |
-| 11:45 - 13:15 | 13:45 - 15:15 | 12.3 Supervised Learning *Continued*                   |
+| 11:45 - 13:15 | 13:45 - 15:15 | 12.3 Supervised Learning                   |
 | 13:15 - 13:30 | 15:15 - 15:30 | *Afternoon Tea*                                        |
 | 13:30 - 14:30 | 15:30 - 16:30 | 12.4 Unsupervised Learning                     |
 | 14:30 - 14:55 | 16:30 - 16:55 | **Closeout & Feedback** |
@@ -69,20 +69,21 @@ The following steps assume that you have access to a google account (e.g. have a
 3. Press `shift + enter` to execute the cell or click on the 'play' button on the upper left hand side of the cell. This will prompt you to follow a URL and get an activation code to permit mounting the drive. Once you'd done this it will not be required again, and will permit you to access files on your Google Drive.
 --->
 
-## Miscellaneous links
-Additional information pertaining to chat based discussions and material within the workshop:
-1. Centre for Transforming Maintenance Through Data Science (CTMTDS): https://www.maintenance.org.au/
-2. CTMTDS - Theme 1 Support the Maintainer (Wei & Tyler; NLP): https://www.maintenance.org.au/category/rt1
-3. Industrial Ontologies - Maintenance Working Group: https://www.industrialontologies.org/?page_id=92
-4. Aquila exploratory data analysis tool: http://agent.csse.uwa.edu.au/aquila
-5. Spacy - Industrial Strength Natural Language Processing: https://spacy.io/
-6. Gensim - Topic Modelling for Humans: https://radimrehurek.com/gensim/
-7. NLTK - Natural Language Tool Kit: https://www.nltk.org/
-8. Interactive word2vec (embedding) visualisation tool: https://ronxin.github.io/wevi/
-9. PyTorch - Binary Cross Entropy Loss (BCELoss): https://pytorch.org/docs/stable/nn.html#bceloss
-10. PyTorch - Recurrent Neural Network (RNN) module: https://pytorch.org/docs/stable/nn.html#rnn
-11. CUDA framework for GPU training: https://developer.nvidia.com/cudnn
-12. CUDA supported GPUs: https://developer.nvidia.com/cuda-gpus
-13. Automatic Summarization (NLP/NLG): https://en.wikipedia.org/wiki/Automatic_summarization
-14. Industrial Ontologies - Maintenance Working Group: https://www.industrialontologies.org/?page_id=92
-15. Example of embeddings drawing powerful insights into COVID19 research: https://www.kaggle.com/tarunpaparaju/covid-19-dataset-gaining-actionable-insights
+### Resources mentioned in the course
+1. [Cere for Transforming Maintenance Through Data Science (CTMTDS)](https://www.maintenance.org.au/)
+2. [CTMTDS - Theme 1 Support the Maintainer (Wei & Tyler; NLP-TLP)](https://www.maintenance.org.au/category/rt1)
+3. [UWA - Natural & Technical Language Processing Group](https://nlp-tlp.org/)
+4. [Industrial Ontologies - Maintenance Working Group](https://www.industrialontologies.org/?page_id=92)
+5. [Interactive word2vec (embedding) visualisation tool](https://ronxin.github.io/wevi)
+6.  [HuggingFace 🤗](https://huggingface.co/)
+7.  [HuggingFace 🤗 Notebooks](https://github.com/huggingface/transformers/tree/master/notebooks)
+8.  [Allen Institute of Artificial Intelligence (AI2) - Demos](https://demo.allennlp.org/reading-comprehension/bidaf-elmo)
+9.  [GPT-3 Language Model Demos](https://beta.openai.com/examples)
+### Dependencies used in the notebooks
+1. [Spacy - Industrial Strength Natural Language Processing](https://spacy.io/)
+2. [Gensim - Topic Modelling for Humans](https://radimrehurek.com/gensim/)
+3. [NLTK - Natural Language Toolkit](https://www.nltk.org/)
+4. [PyTorch - Binary Cross Entropy Loss (BCELoss)](https://pytorch.org/docs/stable/nn.html#bceloss)
+5. [PyTorch - Recurrent Neural Network (RNN) module](https://pytorch.org/docs/stable/nn.html#rnn)
+6. [CUDA framework for GPU training](https://developer.nvidia.com/cudnn)
+7. [CUDA supported GPUs](https://developer.nvidia.com/cuda-gpus)
